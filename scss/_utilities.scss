@@ -1,0 +1,123 @@
+.container {
+  max-width: $max-width;
+  padding: 0 1.4rem;
+  margin: auto;
+}
+
+// buttons
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  &-primary {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $primary;
+  }
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light;
+  }
+  &-dark {
+    @extend %btn-shared;
+    color: #fff;
+    background-color: $dark;
+  }
+}
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: $primary;
+}
+
+// background
+.bg {
+  &-dark {
+    background-color: $dark;
+  }
+  &-primary {
+    background-color: $primary;
+  }
+  &-light {
+    background-color: $light;
+  }
+}
+
+// padding
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+  &-5 {
+    padding: 5rem 0;
+  }
+}
+.px {
+  &-1 {
+    padding: 0 1rem;
+  }
+  &-2 {
+    padding: 0 2rem;
+  }
+  &-3 {
+    padding: 0 3rem;
+  }
+  &-4 {
+    padding: 0 4rem;
+  }
+  &-5 {
+    padding: 0 5rem;
+  }
+}
+
+// margin
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+  &-5 {
+    margin: 5rem 0;
+  }
+}
+.mx {
+  &-1 {
+    margin: 0 1rem;
+  }
+  &-2 {
+    margin: 0 2rem;
+  }
+  &-3 {
+    margin: 0 3rem;
+  }
+  &-4 {
+    margin: 0 4rem;
+  }
+  &-5 {
+    margin: 0 5rem;
+  }
+}

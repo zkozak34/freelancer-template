@@ -6,7 +6,7 @@
   "author": "Zeynel KOZAK <zeynel.kozak@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "scss": "sass -w scss:public/css"
+    "scss": "sass -w scss:public/css -s compressed"
   },
   "devDependencies": {
     "sass": "^1.52.3"
