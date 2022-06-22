@@ -1,0 +1,14 @@
+{
+  "name": "freelancer-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zkozak34/freelancer-template.git",
+  "author": "Zeynel KOZAK <zeynel.kozak@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass -w scss:public/css"
+  },
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
